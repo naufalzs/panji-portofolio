@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>{AppConfig.title}</title>
         <meta name="description" content={AppConfig.description} />
+        <link rel="icon" href="/newFavicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
