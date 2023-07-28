@@ -5,9 +5,19 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors: {
+        primary: "#FF69B4",
+        secondary: "#69D2E7",
+        neutral: {
+          100: "#010101",
+        },
+      },
       fontFamily: {
         lora: ["Lora", "serif"],
         jakarta: "Plus Jakarta Sans",
+      },
+      boxShadow: {
+        btn: "4px 4px 0px 0px rgba(0, 0, 0, 0.65), 4px 4px 0px 0px rgba(0, 0, 0, 0.65)",
       },
     },
   },
