@@ -4,7 +4,12 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lora: ["Lora", "serif"],
+        jakarta: "Plus Jakarta Sans",
+      },
+    },
   },
   plugins: [],
 };
