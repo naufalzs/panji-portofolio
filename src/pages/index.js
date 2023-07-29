@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Roles from "@/components/Roles";
+import WorkHistory from "@/components/WorkHistory";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Roles />
+      <WorkHistory />
     </div>
   );
 }

@@ -12,6 +12,8 @@ module.exports = {
           80: "#58585B",
           100: "#010101",
         },
+        purple: "#C4A1FF",
+        red: "#EF462F",
         orange: "#FAB338"
       },
       fontFamily: {
@@ -20,6 +22,9 @@ module.exports = {
       },
       boxShadow: {
         btn: "4px 4px 0px 0px rgba(0, 0, 0, 0.65), 4px 4px 0px 0px rgba(0, 0, 0, 0.65)",
+      },
+      listStyleImage: {
+        point: 'url("/assets/images/point.svg")',
       },
     },
   },
