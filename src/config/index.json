@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "name": "Panji",
+    "surname": "Saputro",
+    "logo": "/assets/images/logo.svg"
+  },
+  "navigation": [
+    {
+      "name": "About Me",
+      "href": "about-me"
+    },
+    {
+      "name": "Experiences",
+      "href": "work-history"
+    },
+    {
+      "name": "Portfolio",
+      "href": "portfolio"
+    }
+  ]
+}

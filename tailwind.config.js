@@ -9,6 +9,7 @@ module.exports = {
         primary: "#FF69B4",
         secondary: "#69D2E7",
         neutral: {
+          80: "#58585B",
           100: "#010101",
         },
       },
