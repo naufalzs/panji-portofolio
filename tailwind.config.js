@@ -12,6 +12,7 @@ module.exports = {
           80: "#58585B",
           100: "#010101",
         },
+        orange: "#FAB338"
       },
       fontFamily: {
         lora: ["Lora", "serif"],
