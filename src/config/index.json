@@ -84,5 +84,32 @@
         }
       ]
     }
+  ],
+  "portfolio": [
+    {
+      "title": "Jaknot App (Category Features)",
+      "description": "Redesign category features from entry point and user interface and user experience.",
+      "img": "jaknot-app.jpg"
+    },
+    {
+      "title": "Jaknot Product Detail Page",
+      "description": "Improvement user navigation by creating new behavior.",
+      "img": "jaknot-product-detail.jpg"
+    },
+    {
+      "title": "Jaknot Internal Freight Documents",
+      "description": "Making new internal freight documents feature to help.",
+      "img": "jaknot-internal-freight.jpg"
+    },
+    {
+      "title": "Jaknot App Design System Documentation",
+      "description": "Create Jaknot app design system documentation and maintenance it.",
+      "img": "jaknot-design-system.jpg"
+    },
+    {
+      "title": "Exploration: JKT48 Mobile",
+      "description": "Fictional project, created with the purpose of learning and exploring UI/UX Design.",
+      "img": "jkt48-mobile-app.jpg"
+    }
   ]
 }
