@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <div className={`relative max-w-[1080px] pt-10 pb-14 mx-auto`}>
+    <div id="about-me" className={`relative max-w-[1080px] pt-10 pb-14 mx-auto`}>
       <div className={`flex justify-center items-center`}>
         <div className={`w-[544px] h-[544px] shrink-0`}>
           <Image

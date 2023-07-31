@@ -8,7 +8,8 @@ export default function WorkHistory() {
 
   return (
     <div
-      className={`relative max-w-[1080px] mx-auto my-[54px] grid space-y-[54px] px-10  xl:px-0`}
+      id="work-history"
+      className={`relative max-w-[1080px] mx-auto py-[54px] grid space-y-[54px] px-10  xl:px-0`}
     >
       {workHistoryData.map((item, index) => (
         <WorkDetail
