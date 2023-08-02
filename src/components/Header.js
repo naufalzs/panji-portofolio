@@ -9,7 +9,7 @@ export default function Header() {
   const { identity, navigation } = data;
 
   return (
-    <div className={`relative max-w-7xl mx-auto`}>
+    <div className={`relative max-w-[1120px] mx-auto`}>
       <div className={`flex justify-between border-2 border-black`}>
         <div
           className={`w-[220px] p-5 flex justify-center border-r-2 border-black`}

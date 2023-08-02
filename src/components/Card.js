@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Button from "./Button";
 
-export default function Card({ title, description, img }) {
+export default function Card({ title, description, img, toggleDialog }) {
   return (
     <div
-      className={`h-[670px] border-2 border-black rounded-3xl shadow-card overflow-hidden`}
+      className={`h-[670px] border-[3px] border-black rounded-3xl shadow-card overflow-hidden hover:shadow-none hover:translate-x-2 hover:translate-y-2 transition-all`}
     >
       <div className={`relative h-[420px] bg-blue-500 overflow-hidden`}>
         <Image src={`/assets/images/${img}`} layout="fill" />
@@ -15,7 +15,9 @@ export default function Card({ title, description, img }) {
         <p className={`text-xl text-neutral-80 line-clamp-2 mt-3 mb-6`}>
           {description}
         </p>
-        <Button color={"secondary"}>Case Study</Button>
+        <Button color={"secondary"} onClick={() => toggleDialog()}>
+          Case Study
+        </Button>
       </div>
     </div>
   );

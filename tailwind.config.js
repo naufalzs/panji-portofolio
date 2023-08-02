@@ -23,7 +23,7 @@ module.exports = {
       },
       fontFamily: {
         lora: ["Lora", "serif"],
-        jakarta: "Plus Jakarta Sans",
+        jakarta: ['PlusJakartaSans', 'sans-serif'],
       },
       boxShadow: {
         btn: "4px 4px 0px 0px rgba(0, 0, 0, 0.65), 4px 4px 0px 0px rgba(0, 0, 0, 0.65)",
