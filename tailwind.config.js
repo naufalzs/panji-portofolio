@@ -20,6 +20,9 @@ module.exports = {
           2: "#FFDB58",
           3: "#C4A1FF70",
         },
+        slate: {
+          400: "#99B0B5"
+        }
       },
       fontFamily: {
         lora: ["Lora", "serif"],

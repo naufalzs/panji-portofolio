@@ -26,6 +26,7 @@ export default function Portfolio() {
               title={item.title}
               description={item.description}
               img={item.img}
+              href={item.href}
             />
           ))}
         </div>

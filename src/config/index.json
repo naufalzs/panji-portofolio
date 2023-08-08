@@ -106,27 +106,32 @@
     {
       "title": "Jaknot App (Category Features)",
       "description": "Redesign category features from entry point and user interface and user experience.",
-      "img": "jaknot-app.jpg"
+      "img": "jaknot-app.jpg",
+      "href": "/"
     },
     {
       "title": "Jaknot Product Detail Page",
       "description": "Improvement user navigation by creating new behavior.",
-      "img": "jaknot-product-detail.jpg"
+      "img": "jaknot-product-detail.jpg",
+      "href": "/"
     },
     {
       "title": "Jaknot Internal Freight Documents",
       "description": "Making new internal freight documents feature to help.",
-      "img": "jaknot-internal-freight.jpg"
+      "img": "jaknot-internal-freight.jpg",
+      "href": "/"
     },
     {
       "title": "Jaknot App Design System Documentation",
       "description": "Create Jaknot app design system documentation and maintenance it.",
-      "img": "jaknot-design-system.jpg"
+      "img": "jaknot-design-system.jpg",
+      "href": "/"
     },
     {
       "title": "Exploration: JKT48 Mobile",
       "description": "Fictional project, created with the purpose of learning and exploring UI/UX Design.",
-      "img": "jkt48-mobile-app.jpg"
+      "img": "jkt48-mobile-app.jpg",
+      "href": "/"
     }
   ]
 }
