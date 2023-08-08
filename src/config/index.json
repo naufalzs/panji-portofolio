@@ -11,127 +11,142 @@
     },
     "cv_src": "https://drive.google.com/file/d/148-Vtn4Dv2q8zZy1C6MjElr2GOuZo-5p/view?usp=sharing"
   },
-  "navigation": [
+  "collaborators": [
     {
-      "name": "About Me",
-      "href": "about-me"
+      "fullname": "Panji Saputro",
+      "role": "UI/UX Designer",
+      "linkedin": "https://www.linkedin.com/in/panjisap0805/",
+      "medium": "https://medium.com/@panjisaputro",
+      "gdrive": "https://drive.google.com/file/d/19MIXgVzyuXHLNUsXU2LmgldbAI7V0Njp/view?usp=drive_link"
     },
     {
-      "name": "Experiences",
-      "href": "work-history"
-    },
-    {
-      "name": "Portfolio",
-      "href": "portfolio"
+      "fullname": "Naufal Zufar",
+      "role": "Front End Developer",
+      "linkedin": "https://www.linkedin.com/in/naufal-zs/",
+      "medium": "https://medium.com/@naufal.zufar.s"
     }
   ],
-  "skills": [
-    "User Interface Design",
-    "User Experience Design",
-    "User Research & Usability Testing",
-    "Design System",
-    "UX Writing",
-    "Wireframing",
-    "Prototyping",
-    "HTML, CSS, Javascript"
-  ],
-  "roles": [
-    "UI/UX Designer",
-    "UX Researcher",
-    "Product Designer"
-  ],
-  "work_history": [
-    {
-      "title": "Experiences",
-      "data": [
-        {
-          "id": 1,
-          "start_date": "2022-4",
-          "end_date": "2023-6",
-          "company": "Jakmall.com",
-          "role": "UI/UX Designer",
-          "jobs": [
-            "Collaborated with product managers, developers, and stakeholders to create user-centered design solutions for web and mobile applications.",
-            "Crafting wireframes, prototypes, and high-fidelity based research plan and concept model result.",
-            "Conducted usability testing and incorporated feedback into design iterations.",
-            "Worked closely with developers to ensure designs were implemented accurately and efficiently.",
-            "Designed and maintained design systems to ensure consistency across different platforms and products."
-          ]
-        },
-        {
-          "id": 2,
-          "start_date": "2021-8",
-          "end_date": "2021-11",
-          "company": "Skilvul",
-          "role": "UI/UX Designer Intern",
-          "jobs": [
-            "Conducted user research and usability testing to gain insights into user behavior and preferences.",
-            "Created low-fidelity wireframes and prototypes using Figma.",
-            "Contributed to the development of design systems and style guides."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Project’s",
-      "data": [
-        {
-          "id": 1,
-          "start_date": "2023-6",
-          "end_date": "2023-7",
-          "company": "Rawat Kerukukan",
-          "role": "UI/UX Designer Freelance",
-          "jobs": [
-            "Create style guides, wireframe, user interface and prototype.",
-            "Collaborated with project manager and developer to implement design solutions",
-            "Presented design concepts and solutions to internal teams and key stakeholders."
-          ]
-        },
-        {
-          "id": 2,
-          "start_date": "2021-10",
-          "end_date": "2021-12",
-          "company": "SIMCHU",
-          "role": "UI/UX Designer Freelance",
-          "jobs": [
-            "Create style guides, wireframe, user interface and prototype.",
-            "Collaborated with project manager, designer and developer to implement design solutions",
-            "Presented design concepts and solutions to internal teams and key stakeholders."
-          ]
-        }
-      ]
-    }
-  ],
-  "portfolio": [
-    {
-      "title": "Jaknot App (Category Features)",
-      "description": "Redesign category features from entry point and user interface and user experience.",
-      "img": "jaknot-app.jpg",
-      "href": "/"
-    },
-    {
-      "title": "Jaknot Product Detail Page",
-      "description": "Improvement user navigation by creating new behavior.",
-      "img": "jaknot-product-detail.jpg",
-      "href": "/"
-    },
-    {
-      "title": "Jaknot Internal Freight Documents",
-      "description": "Making new internal freight documents feature to help.",
-      "img": "jaknot-internal-freight.jpg",
-      "href": "/"
-    },
-    {
-      "title": "Jaknot App Design System Documentation",
-      "description": "Create Jaknot app design system documentation and maintenance it.",
-      "img": "jaknot-design-system.jpg",
-      "href": "/"
-    },
-    {
-      "title": "Exploration: JKT48 Mobile",
-      "description": "Fictional project, created with the purpose of learning and exploring UI/UX Design.",
-      "img": "jkt48-mobile-app.jpg",
-      "href": "/"
-    }
-  ]
+"navigation": [
+  {
+    "name": "About Me",
+    "href": "about-me"
+  },
+  {
+    "name": "Experiences",
+    "href": "work-history"
+  },
+  {
+    "name": "Portfolio",
+    "href": "portfolio"
+  }
+],
+"skills": [
+  "User Interface Design",
+  "User Experience Design",
+  "User Research & Usability Testing",
+  "Design System",
+  "UX Writing",
+  "Wireframing",
+  "Prototyping",
+  "HTML, CSS, Javascript"
+],
+"roles": [
+  "UI/UX Designer",
+  "UX Researcher",
+  "Product Designer"
+],
+"work_history": [
+  {
+    "title": "Experiences",
+    "data": [
+      {
+        "id": 1,
+        "start_date": "2022-4",
+        "end_date": "2023-6",
+        "company": "Jakmall.com",
+        "role": "UI/UX Designer",
+        "jobs": [
+          "Collaborated with product managers, developers, and stakeholders to create user-centered design solutions for web and mobile applications.",
+          "Crafting wireframes, prototypes, and high-fidelity based research plan and concept model result.",
+          "Conducted usability testing and incorporated feedback into design iterations.",
+          "Worked closely with developers to ensure designs were implemented accurately and efficiently.",
+          "Designed and maintained design systems to ensure consistency across different platforms and products."
+        ]
+      },
+      {
+        "id": 2,
+        "start_date": "2021-8",
+        "end_date": "2021-11",
+        "company": "Skilvul",
+        "role": "UI/UX Designer Intern",
+        "jobs": [
+          "Conducted user research and usability testing to gain insights into user behavior and preferences.",
+          "Created low-fidelity wireframes and prototypes using Figma.",
+          "Contributed to the development of design systems and style guides."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Project’s",
+    "data": [
+      {
+        "id": 1,
+        "start_date": "2023-6",
+        "end_date": "2023-7",
+        "company": "Rawat Kerukukan",
+        "role": "UI/UX Designer Freelance",
+        "jobs": [
+          "Create style guides, wireframe, user interface and prototype.",
+          "Collaborated with project manager and developer to implement design solutions",
+          "Presented design concepts and solutions to internal teams and key stakeholders."
+        ]
+      },
+      {
+        "id": 2,
+        "start_date": "2021-10",
+        "end_date": "2021-12",
+        "company": "SIMCHU",
+        "role": "UI/UX Designer Freelance",
+        "jobs": [
+          "Create style guides, wireframe, user interface and prototype.",
+          "Collaborated with project manager, designer and developer to implement design solutions",
+          "Presented design concepts and solutions to internal teams and key stakeholders."
+        ]
+      }
+    ]
+  }
+],
+"portfolio": [
+  {
+    "title": "Jaknot App (Category Features)",
+    "description": "Redesign category features from entry point and user interface and user experience.",
+    "img": "jaknot-app.jpg",
+    "href": "/"
+  },
+  {
+    "title": "Jaknot Product Detail Page",
+    "description": "Improvement user navigation by creating new behavior.",
+    "img": "jaknot-product-detail.jpg",
+    "href": "/"
+  },
+  {
+    "title": "Jaknot Internal Freight Documents",
+    "description": "Making new internal freight documents feature to help.",
+    "img": "jaknot-internal-freight.jpg",
+    "href": "/"
+  },
+  {
+    "title": "Jaknot App Design System Documentation",
+    "description": "Create Jaknot app design system documentation and maintenance it.",
+    "img": "jaknot-design-system.jpg",
+    "href": "/"
+  },
+  {
+    "title": "Exploration: JKT48 Mobile",
+    "description": "Fictional project, created with the purpose of learning and exploring UI/UX Design.",
+    "img": "jkt48-mobile-app.jpg",
+    "href": "/"
+  }
+]
 }
