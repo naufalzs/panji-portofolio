@@ -9,7 +9,7 @@ export default function WorkHistory() {
   return (
     <div
       id="work-history"
-      className={`relative max-w-[1120px] mx-auto py-[54px] grid space-y-[54px] px-10  xl:pl-0 xl:pr-[192px]`}
+      className={`relative max-w-[1120px] mx-auto py-[54px] grid space-y-10 px-10  xl:pl-0 xl:pr-[192px]`}
     >
       {workHistoryData.map((item, index) => (
         <WorkDetail

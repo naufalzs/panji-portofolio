@@ -31,7 +31,7 @@ export default function Button({ color, href, onClick, disabled, children }) {
   return (
     <Wrapper href={href}>
       <button
-        className={`capitalize py-4 px-5 rounded-lg  ${bgColor} text-lg leading-none border-2 border-neutral-100 shadow-mini ${hoverClass}`}
+        className={`capitalize py-4 px-5 rounded-lg  ${bgColor} text-lg font-semibold leading-none border-2 border-neutral-100 shadow-mini ${hoverClass}`}
         onClick={onClick ? () => onClick() : undefined}
       >
         {children}

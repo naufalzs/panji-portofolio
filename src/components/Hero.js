@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <div
       id="about-me"
-      className={`relative max-w-[1120px] py-10 mx-auto`}
+      className={`relative max-w-[1120px] py-[54px] mx-auto`}
     >
       <div className={`flex justify-center items-center`}>
         <div className={`w-[544px] h-[544px] shrink-0`}>
@@ -30,10 +30,10 @@ export default function Hero() {
             alt="hero image"
           />
         </div>
-        <div className={`ml-8 mr-10 w-full`}>
+        <div className={`ml-8 w-full`}>
           <div className={`font-lora text-[80px] leading-tight tracking-wider`}>
             <h2>{identity.name}</h2>
-            <h2 className="text-right">
+            <h2 className="pl-[120px]">
               {identity.surname}
               <span className={`ml-3`}>
                 <Image
@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className={`mt-[54px] flex flex-wrap gap-3`}>{skillsSection}</div>
+      <div className={`mt-10 flex flex-wrap gap-3`}>{skillsSection}</div>
     </div>
   );
 }

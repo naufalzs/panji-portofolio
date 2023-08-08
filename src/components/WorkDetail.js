@@ -37,7 +37,7 @@ export default function WorkDetail({ index, title, data }) {
       </div>
       <div className={`relative flex`}>
         <Indicator height={indicatorHeight} isCircle={isEven} />
-        <div className={`grid space-y-8`}>
+        <div className={`grid space-y-7`}>
           {data.map((work, index) => (
             <div
               key={work.id}
