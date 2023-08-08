@@ -4,6 +4,10 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: false,
   theme: {
+    fontFamily: {
+      lora: ["Lora", "serif"],
+      jakarta: ["Plus Jakarta Sans", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: "#FF69B4",
@@ -21,12 +25,8 @@ module.exports = {
           3: "#C4A1FF70",
         },
         slate: {
-          400: "#99B0B5"
-        }
-      },
-      fontFamily: {
-        lora: ["Lora", "serif"],
-        jakarta: ["PlusJakartaSans", "sans-serif"],
+          400: "#99B0B5",
+        },
       },
       boxShadow: {
         btn: "4px 4px 0px 0px rgba(0, 0, 0, 0.65), 4px 4px 0px 0px rgba(0, 0, 0, 0.65)",
