@@ -24,7 +24,7 @@ export default function WorkDetail({ index, title, data }) {
   }, []);
 
   const formatDate = (date) => format(new Date(date), "MMM yyyy");
-  
+
   return (
     <div>
       <div className={`flex items-center mb-7`}>
@@ -58,9 +58,16 @@ export default function WorkDetail({ index, title, data }) {
               <div className={`text-xl text-neutral-100 font-semibold`}>
                 {work.role}
               </div>
-              <ul className={`list-inside list-image-point mt-3 space-y-2`}>
+              <ul className={`mt-3 space-y-2`}>
                 {work.jobs.map((job) => (
-                  <li key={job} className={`text-lg`}>
+                  <li key={job} className={`flex text-lg`}>
+                    <div className="shrink-0 mr-2">
+                      <Image
+                        src={`/assets/images/point.svg`}
+                        width={15}
+                        height={15}
+                      />
+                    </div>
                     {job}
                   </li>
                 ))}

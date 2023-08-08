@@ -30,9 +30,6 @@ module.exports = {
         mini: "2px 2px 0px 0px rgba(0, 0, 0, 0.65), 2px 2px 0px 0px rgba(0, 0, 0, 0.65)",
         card: "8px 8px 0px 0px rgba(0, 0, 0, 0.65), 8px 8px 0px 0px rgba(0, 0, 0, 0.65)",
       },
-      listStyleImage: {
-        point: 'url("/assets/images/point.svg")',
-      },
     },
   },
   plugins: [],
