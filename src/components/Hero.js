@@ -2,9 +2,25 @@ import Image from "next/image";
 import React from "react";
 import Button from "./Button";
 
+import data from "@/config";
+
 export default function Hero() {
+  const { identity, skills } = data;
+
+  const skillsSection = skills.map((skill, index) => (
+    <div
+      key={index}
+      className={`px-4 py-2 rounded-lg text-lg leading-none border-2 border-neutral-100 shadow-mini`}
+    >
+      {skill}
+    </div>
+  ));
+
   return (
-    <div id="about-me" className={`relative max-w-[1120px] pt-10 pb-14 mx-auto`}>
+    <div
+      id="about-me"
+      className={`relative max-w-[1120px] pt-10 pb-14 mx-auto`}
+    >
       <div className={`flex justify-center items-center`}>
         <div className={`w-[544px] h-[544px] shrink-0`}>
           <Image
@@ -16,9 +32,9 @@ export default function Hero() {
         </div>
         <div className={`ml-8 mr-10 w-full`}>
           <div className={`font-lora text-[80px] leading-tight tracking-wider`}>
-            <h2>Panji</h2>
+            <h2>{identity.name}</h2>
             <h2 className="text-right">
-              Saputro
+              {identity.surname}
               <span className={`ml-3`}>
                 <Image
                   src={`/assets/images/double-triangle.svg`}
@@ -28,18 +44,18 @@ export default function Hero() {
               </span>
             </h2>
           </div>
-          <p className={`mt-4 mb-6 text-lg text-neutral-80`}>
-            I am a highly motivated UI/UX designer with over a year of
-            professional experience. With a passion for creating user-centered
-            designs, I strive to combine aesthetics with functionality to
-            deliver exceptional user experiences.
-          </p>
+          <p className={`mt-4 mb-6 text-lg`}>{identity.desc}</p>
           <div className={`flex space-x-4`}>
-            <Button>contact me</Button>
-            <Button color={"secondary"}>download CV</Button>
+            <Button href={`mailto:${identity.email.address}?subject=${identity.email.subject}&body=${identity.email.body}`}>
+              contact me
+            </Button>
+            <Button color={"secondary"} href={identity.cv_src}>
+              download CV
+            </Button>
           </div>
         </div>
       </div>
+      <div className={`mt-[54px] flex flex-wrap gap-3`}>{skillsSection}</div>
     </div>
   );
 }

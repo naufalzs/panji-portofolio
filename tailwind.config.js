@@ -19,15 +19,16 @@ module.exports = {
           1: "#FFBDC470",
           2: "#FFDB58",
           3: "#C4A1FF70",
-        }
+        },
       },
       fontFamily: {
         lora: ["Lora", "serif"],
-        jakarta: ['PlusJakartaSans', 'sans-serif'],
+        jakarta: ["PlusJakartaSans", "sans-serif"],
       },
       boxShadow: {
         btn: "4px 4px 0px 0px rgba(0, 0, 0, 0.65), 4px 4px 0px 0px rgba(0, 0, 0, 0.65)",
-        card: "8px 8px 0px 0px rgba(0, 0, 0, 0.65), 8px 8px 0px 0px rgba(0, 0, 0, 0.65)"
+        mini: "2px 2px 0px 0px rgba(0, 0, 0, 0.65), 2px 2px 0px 0px rgba(0, 0, 0, 0.65)",
+        card: "8px 8px 0px 0px rgba(0, 0, 0, 0.65), 8px 8px 0px 0px rgba(0, 0, 0, 0.65)",
       },
       listStyleImage: {
         point: 'url("/assets/images/point.svg")',

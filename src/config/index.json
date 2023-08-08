@@ -2,7 +2,14 @@
   "identity": {
     "name": "Panji",
     "surname": "Saputro",
-    "logo": "/assets/images/logo.svg"
+    "logo": "/assets/images/logo.svg",
+    "desc": "I am a highly motivated UI/UX designer with over a year of professional experience. With a passion for creating user-centered designs, I strive to combine aesthetics with functionality to deliver exceptional user experiences.",
+    "email": {
+      "address": "panjisap0805@gmail.com",
+      "subject": "",
+      "body": ""
+    },
+    "cv_src": "https://drive.google.com/file/d/148-Vtn4Dv2q8zZy1C6MjElr2GOuZo-5p/view?usp=sharing"
   },
   "navigation": [
     {
@@ -17,6 +24,16 @@
       "name": "Portfolio",
       "href": "portfolio"
     }
+  ],
+  "skills": [
+    "User Interface Design",
+    "User Experience Design",
+    "User Research & Usability Testing",
+    "Design System",
+    "UX Writing",
+    "Wireframing",
+    "Prototyping",
+    "HTML, CSS, Javascript"
   ],
   "roles": [
     "UI/UX Designer",
