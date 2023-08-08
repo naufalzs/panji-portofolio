@@ -10,7 +10,7 @@ export default function Hero() {
   const skillsSection = skills.map((skill, index) => (
     <div
       key={index}
-      className={`px-4 py-2 rounded-lg text-lg leading-none border-2 border-neutral-100 shadow-mini`}
+      className={`px-4 py-2 rounded-lg text-lg font-medium leading-none border-2 border-neutral-100 shadow-mini`}
     >
       {skill}
     </div>
@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <div
       id="about-me"
-      className={`relative max-w-[1120px] pt-10 pb-14 mx-auto`}
+      className={`relative max-w-[1120px] py-10 mx-auto`}
     >
       <div className={`flex justify-center items-center`}>
         <div className={`w-[544px] h-[544px] shrink-0`}>
@@ -44,7 +44,7 @@ export default function Hero() {
               </span>
             </h2>
           </div>
-          <p className={`mt-4 mb-6 text-lg`}>{identity.desc}</p>
+          <p className={`mt-4 mb-6 text-lg font-jakarta font-light`}>{identity.desc}</p>
           <div className={`flex space-x-4`}>
             <Button href={`mailto:${identity.email.address}?subject=${identity.email.subject}&body=${identity.email.body}`}>
               contact me

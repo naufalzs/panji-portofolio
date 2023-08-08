@@ -30,7 +30,7 @@ export default function Header() {
               duration={500}
               key={item.name}
               to={item.href}
-              className="cursor-pointer font-semibold hover:border-b-2 hover:border-primary hover:-mb-0.5"
+              className="cursor-pointer py-5 font-semibold leading-none hover:border-b-2 hover:border-primary hover:-mb-0.5"
             >
               {item.name}
             </Link>
