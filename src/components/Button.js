@@ -27,11 +27,12 @@ export default function Button({ color, href, onClick, disabled, children }) {
   const hoverClass = !disabled
     ? "hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all"
     : "";
+  const shadowClass = !disabled ? "shadow-btn" : "shadow-mini"
 
   return (
     <Wrapper href={href}>
       <button
-        className={`capitalize py-4 px-5 rounded-lg  ${bgColor} text-lg font-semibold leading-none border-2 border-neutral-100 shadow-mini ${hoverClass}`}
+        className={`capitalize py-4 px-5 rounded-lg  ${bgColor} text-lg font-semibold leading-none border-2 border-neutral-100 ${shadowClass} ${hoverClass}`}
         onClick={onClick ? () => onClick() : undefined}
       >
         {children}
