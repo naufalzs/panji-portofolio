@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Wrapper = ({ href, children }) =>
   href ? (
@@ -27,7 +28,7 @@ export default function Button({ color, href, onClick, disabled, children }) {
   const hoverClass = !disabled
     ? "hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all"
     : "";
-  const shadowClass = !disabled ? "shadow-btn" : "shadow-mini"
+  const shadowClass = !disabled ? "shadow-btn" : "shadow-mini";
 
   return (
     <Wrapper href={href}>
@@ -40,3 +41,14 @@ export default function Button({ color, href, onClick, disabled, children }) {
     </Wrapper>
   );
 }
+
+Button.propTypes = {
+  color: PropTypes.oneOf(["primary", "secondary", "gray"]),
+  href: PropTypes.string,
+  disabled: PropTypes.bool,
+  children: PropTypes.any.isRequired,
+};
+
+Button.defaultProps = {
+  color: "primary",
+};
