@@ -55,7 +55,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className={`mt-10 flex flex-wrap gap-3`}>{skillsSection}</div>
+      <div className={`mt-10 px-4 lg:px-10 xl:mx-0 flex flex-wrap gap-3`}>{skillsSection}</div>
     </div>
   );
 }

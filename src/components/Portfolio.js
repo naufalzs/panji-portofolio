@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <div
       id="portfolio"
-      className={`min-h-screen bg-gradient-to-tr from-gradient-1 from-25% via-gradient-2 via-40% to-gradient-3 to-75% px-10 xl:px-0`}
+      className={`min-h-screen bg-gradient-to-tr from-gradient-1 from-25% via-gradient-2 via-40% to-gradient-3 to-75% px-4 lg:px-10 xl:px-0`}
     >
       <div className={`max-w-[1120px] mx-auto pt-[54px] pb-[62px]`}>
         <div className={`flex items-center mb-7`}>

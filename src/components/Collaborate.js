@@ -44,7 +44,7 @@ export default function Collaborate() {
   return (
     <div className={`py-[54px]`}>
       <div className={`max-w-[1120px] mx-auto `}>
-        <div className={`flex gap-x-3`}>
+        <div className={`flex gap-x-3 px-4 lg:px-10 xl:px-0`}>
           <Image src={"/assets/images/flower.svg"} width={40} height={40} />
           <div className={`font-lora font-semibold text-[48px]`}>
             Who’s Collaborate
@@ -62,7 +62,7 @@ export default function Collaborate() {
       <div className="relative h-[80px]">
         <Image src={"/assets/images/divider-collaborate.jpg"} layout="fill" />
       </div>
-      <div className={`max-w-[1120px] mx-auto pt-[54px]`}>
+      <div className={`max-w-[1120px] mx-auto pt-[54px] px-4 lg:px-10 xl:px-0`}>
         <div
           className={`mb-6 flex items-center gap-x-1 font-lora text-medium text-lg`}
         >
