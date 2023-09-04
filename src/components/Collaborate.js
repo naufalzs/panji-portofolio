@@ -47,29 +47,41 @@ export default function Collaborate() {
   return (
     <div className={`py-9 lg:py-[54px]`}>
       <div className={`max-w-[1120px] mx-auto `}>
-        <div className={`flex gap-x-3 px-4 lg:px-10 xl:px-0`}>
+        {/* mobile */}
+        <div
+          className={`md:hidden px-4 font-lora font-semibold text-[32px] leading-tight`}
+        >
+          <div className="flex gap-2">
+            <Image src={"/assets/images/flower.svg"} width={24} height={24} />
+            <div>Who’s</div>
+          </div>
+          <div className="flex gap-2">
+            <div className={`pl-[34px]`}>Collaborate</div>
+            <Image src={"/assets/images/flower.svg"} width={24} height={24} />
+          </div>
+        </div>
+        {/* desktop */}
+        <div className={`hidden md:flex gap-x-3 px-4 lg:px-10 xl:px-0`}>
           <Image src={"/assets/images/flower.svg"} width={40} height={40} />
           <div
             className={`font-lora font-semibold text-[48px] hidden md:block`}
           >
             Who’s Collaborate
           </div>
-          <div
-            className={`font-lora font-semibold text-[32px] lg:text-[48px] block md:hidden`}
-          >
-            Who’s
-            <div className={`pl-[80px]`}>Collaborate</div>
-          </div>
           <Image src={"/assets/images/flower.svg"} width={40} height={40} />
         </div>
+
         <div className={`mt-4 lg:mt-7 mb-9 lg:mb-[54px]`}>
-          <div className={`md:hidden`}>
+          {/* mobile */}
+          <div
+            className={`md:hidden relative aspect-[375/880] w-full min-[400px]:w-[425px]`}
+          >
             <Image
               src={"/assets/images/img-collaborate-mobile.jpg"}
-              width={375}
-              height={880}
+              layout="fill"
             />
           </div>
+          {/* desktop */}
           <div className={`hidden md:block`}>
             <Image
               src={"/assets/images/img-collaborate.jpg"}
