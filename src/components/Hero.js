@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="flex pl-0 lg:pl-[70px] xl:pl-[120px]">
               <span className={"mr-2 lg:hidden"}>{identity.name} </span>
               {identity.surname}
-              <div className={`ml-3 relative w-[56px]`}>
+              <div className={`ml-3 relative w-10 lg:w-[56px]`}>
                 <Image
                   src={`/assets/images/double-triangle.svg`}
                   layout="fill"
