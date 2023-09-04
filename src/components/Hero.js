@@ -23,6 +23,7 @@ export default function Hero() {
           <Image
             src={"/assets/images/hero-img.png"}
             layout="fill"
+            priority
             sizes="(max-width: 768px) 100vw, 550px"
             alt="hero image"
           />
