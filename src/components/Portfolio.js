@@ -12,14 +12,18 @@ export default function Portfolio() {
       id="portfolio"
       className={`min-h-screen bg-gradient-to-tr from-gradient-1 from-25% via-gradient-2 via-40% to-gradient-3 to-75% px-4 lg:px-10 xl:px-0`}
     >
-      <div className={`max-w-[1120px] mx-auto pt-[54px] pb-[62px]`}>
-        <div className={`flex items-center mb-7`}>
-          <div className={`font-lora font-semibold text-5xl mr-3`}>
+      <div className={`max-w-[1120px] mx-auto py-9 lg:pt-[54px] lg:pb-[62px]`}>
+        <div className={`flex items-center mb-4 lg:mb-7`}>
+          <div
+            className={`font-lora font-semibold text-3xl lg:text-5xl mr-2 lg:mr-3`}
+          >
             Portfolio’s
           </div>
-          <Image src={"/assets/images/triangles.svg"} width={76} height={40} />
+          <div className="relative w-12 h-6 lg:w-[76px] lg:h-[40px]">
+            <Image src={"/assets/images/triangles.svg"} width={76} height={40} />
+          </div>
         </div>
-        <div className={`grid grid-cols-2 gap-x-7 gap-y-8`}>
+        <div className={`grid md:grid-cols-2 gap-x-7 gap-y-4 md:gap-y-8`}>
           {portfolio.map((item) => (
             <Card
               key={item.title}

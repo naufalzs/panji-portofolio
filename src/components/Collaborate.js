@@ -7,7 +7,10 @@ export default function Collaborate() {
   const { collaborators } = data;
 
   const collaboratorSection = collaborators.map((collaborator) => (
-    <div key={collaborator.fullname} className={`flex gap-x-2 text-lg font-jakarta`}>
+    <div
+      key={collaborator.fullname}
+      className={`flex gap-x-2 text-lg font-jakarta`}
+    >
       {collaborator.fullname} as a {collaborator.role}
       <div className={`flex gap-x-1`}>
         {collaborator.linkedin && (
@@ -42,27 +45,46 @@ export default function Collaborate() {
   ));
 
   return (
-    <div className={`py-[54px]`}>
+    <div className={`py-9 lg:py-[54px]`}>
       <div className={`max-w-[1120px] mx-auto `}>
         <div className={`flex gap-x-3 px-4 lg:px-10 xl:px-0`}>
           <Image src={"/assets/images/flower.svg"} width={40} height={40} />
-          <div className={`font-lora font-semibold text-[48px]`}>
+          <div
+            className={`font-lora font-semibold text-[48px] hidden md:block`}
+          >
             Who’s Collaborate
+          </div>
+          <div
+            className={`font-lora font-semibold text-[32px] lg:text-[48px] block md:hidden`}
+          >
+            Who’s
+            <div className={`pl-[80px]`}>Collaborate</div>
           </div>
           <Image src={"/assets/images/flower.svg"} width={40} height={40} />
         </div>
-        <div className={`mt-7 mb-[54px]`}>
-          <Image
-            src={"/assets/images/img-collaborate.jpg"}
-            width={1122}
-            height={675}
-          />
+        <div className={`mt-4 lg:mt-7 mb-9 lg:mb-[54px]`}>
+          <div className={`md:hidden`}>
+            <Image
+              src={"/assets/images/img-collaborate-mobile.jpg"}
+              width={375}
+              height={880}
+            />
+          </div>
+          <div className={`hidden md:block`}>
+            <Image
+              src={"/assets/images/img-collaborate.jpg"}
+              width={1122}
+              height={675}
+            />
+          </div>
         </div>
       </div>
-      <div className="relative h-[80px]">
+      <div className="relative h-10 lg:h-[80px]">
         <Image src={"/assets/images/divider-collaborate.jpg"} layout="fill" />
       </div>
-      <div className={`max-w-[1120px] mx-auto pt-[54px] px-4 lg:px-10 xl:px-0`}>
+      <div
+        className={`max-w-[1120px] mx-auto pt-9 lg:pt-[54px] px-4 lg:px-10 xl:px-0`}
+      >
         <div
           className={`mb-6 flex items-center gap-x-1 font-lora text-medium text-lg`}
         >

@@ -9,7 +9,7 @@ export default function Roles() {
 
   return (
     <div className={`relative bg-orange`}>
-      <Marquee className={`max-w-[1120px] mx-auto py-8 flex items-center`}>
+      <Marquee className={`max-w-[1120px] mx-auto py-4 lg:py-8 flex items-center`}>
         {rolesData.map((item) => (
           <Role value={item} key={item} />
         ))}

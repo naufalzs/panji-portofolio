@@ -10,43 +10,48 @@ export default function Hero() {
   const skillsSection = skills.map((skill, index) => (
     <div
       key={index}
-      className={`px-4 py-2 rounded-lg text-lg font-medium leading-none border-2 border-neutral-100 shadow-mini`}
+      className={`px-3 lg:px-4 py-2 rounded-lg text-base lg:text-lg font-medium leading-none border-2 border-neutral-100 shadow-mini`}
     >
       {skill}
     </div>
   ));
 
   return (
-    <div
-      id="about-me"
-      className={`relative max-w-[1120px] py-[54px] mx-auto`}
-    >
-      <div className={`flex justify-center items-center`}>
-        <div className={`w-[544px] h-[544px] shrink-0`}>
+    <div id="about-me" className={`relative max-w-[1120px] py-9 lg:py-[54px] mx-auto`}>
+      <div className={`flex flex-col lg:flex-row justify-center items-center`}>
+        <div className={`relative aspect-square w-full mb-6 md:w-[425px] lg:w-[544px] lg:mb-0 shrink-0`}>
           <Image
             src={"/assets/images/hero-img.png"}
-            width={544}
-            height={544}
+            layout="fill"
+            sizes="(max-width: 768px) 100vw, 550px"
             alt="hero image"
           />
         </div>
-        <div className={`ml-8 w-full`}>
-          <div className={`font-lora text-[80px] leading-tight tracking-wider`}>
-            <h2>{identity.name}</h2>
-            <h2 className="pl-[120px]">
+        <div className={`px-4 lg:px-0 lg:ml-8 w-full`}>
+          <div
+            className={`font-lora text-[40px] lg:text-[80px] leading-tight tracking-wider`}
+          >
+            <h2 className={"hidden lg:block"}>{identity.name}</h2>
+            <div className="flex pl-0 lg:pl-[70px] xl:pl-[120px]">
+              <span className={"mr-2 lg:hidden"}>{identity.name} </span>
               {identity.surname}
-              <span className={`ml-3`}>
+              <div className={`ml-3 relative w-[56px]`}>
                 <Image
                   src={`/assets/images/double-triangle.svg`}
-                  width={56}
-                  height={46}
+                  layout="fill"
                 />
-              </span>
-            </h2>
+              </div>
+            </div>
           </div>
-          <p className={`mt-4 mb-6 text-lg font-jakarta font-light`}>{identity.desc}</p>
+          <p
+            className={`mt-2 mb-4 lg:mt-4 lg:mb-6 text-sm lg:text-lg font-jakarta font-light`}
+          >
+            {identity.desc}
+          </p>
           <div className={`flex space-x-4`}>
-            <Button href={`mailto:${identity.email.address}?subject=${identity.email.subject}&body=${identity.email.body}`}>
+            <Button
+              href={`mailto:${identity.email.address}?subject=${identity.email.subject}&body=${identity.email.body}`}
+            >
               contact me
             </Button>
             <Button color={"secondary"} href={identity.cv_src}>
@@ -55,7 +60,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className={`mt-10 px-4 lg:px-10 xl:mx-0 flex flex-wrap gap-3`}>{skillsSection}</div>
+      <div className={`mt-10 px-4 lg:px-10 xl:px-0 xl:mx-0`}>
+        <h3 className={"text-lg lg:text-[28px] font-bold mb-3 lg:mb-5"}>Skills</h3>
+        <div className={`flex flex-wrap gap-3`}>{skillsSection}</div>
+      </div>
     </div>
   );
 }
